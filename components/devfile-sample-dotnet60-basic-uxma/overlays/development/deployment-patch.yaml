@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dotnet60-basic-uxma
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rsoaresd_org/spi-demos-fgmh-tenant/dotnet-component/devfile-sample-dotnet60-basic-uxma@sha256:ea18bb6014d79fb2ffb5227d1663370f598e9ffde53a8d0fe756c8b182902824
+        name: main
+        resources: {}
+status: {}
